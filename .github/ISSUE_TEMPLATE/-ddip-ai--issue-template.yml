@@ -1,5 +1,5 @@
-name: "✨ Feature"
-description: "새로운 기능 추가"
+name: "[DDIP AI] 이슈 템플릿"
+description: "새로운 이슈 추가"
 labels: ["feature"]
 body:
   - type: textarea
