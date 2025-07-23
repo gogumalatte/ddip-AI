@@ -1,5 +1,20 @@
-## 📄 작업 내용 요약
-
-
-## 📎 Issue 번호
-<!-- closed #번호 -->
+name: "기본 Pull Request"
+description: "이 템플릿을 사용하여 Pull Request를 생성합니다."
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: "📄 작업 내용 요약"
+      description: "이번 PR의 핵심 내용을 요약해서 작성해주세요."
+      placeholder: "예: 로그인 API 버그 수정"
+    validations:
+      required: true
+      
+  - type: textarea
+    id: issue-number
+    attributes:
+      label: "📎 Issue 번호"
+      description: "PR과 관련된 이슈가 있다면 'closed #번호' 형식으로 작성해주세요."
+      placeholder: "closed #123"
+    validations:
+      required: false
